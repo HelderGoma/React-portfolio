@@ -1,8 +1,12 @@
+import { motion } from "motion/react"
 import SectionTitle from "../sectionTitle/sectionTitle"
 import Education from "./Education"
 import Skills from "./Skills"
 import "./skills.css"
 import WorkExperience from "./WorkExperience"
+import { slideInVariants } from "../../utils/animation"
+
+
 
 const SkillsInfo = () => {
   return (
@@ -11,17 +15,41 @@ const SkillsInfo = () => {
         <SectionTitle title="Skills" subtitle="Skills" />
 
         <div className="inner-content">
-          <div className="skills-description">
+          <motion.div className="skills-description"
+            initial="hidden"
+            whileInView="visible"
+            custom={1}
+            viewport={{ once: false, amount: 0.5 }}
+            variants={slideInVariants("top", 0.6, 60, true)}
+          >
             <h3>Education & Skills</h3>
             <p>
               For more than 5 years our experts have been accomplishing enough with modern Web
               Development,
               new generation web and app programming language.
             </p>
-          </div>
+          </motion.div>
           <div className="skills-info education-all">
-            < Education />
-            <Skills />
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              custom={1}
+              viewport={{ once: false, amount: 0.5 }}
+              variants={slideInVariants("top", 0.7, 50, true)}
+            >
+              < Education />
+            </motion.div>
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              custom={2}
+              viewport={{ once: false, amount: 0.5 }}
+              variants={slideInVariants("top", 0.7, 50, true)}
+            >
+              <Skills />
+            </motion.div>
+
+
           </div>
           <WorkExperience />
         </div>

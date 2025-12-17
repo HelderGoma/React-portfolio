@@ -13,12 +13,12 @@ const SectionTitle = ({ title, subtitle }) => {
                 viewport={{ once: false, amount: 0.5 }}
                 variants={titleVariants}
             >{title}</motion.h2>
-            <h3 className="inner-second-title"
+            <motion.h3 className="inner-second-title"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.5 }}
                 variants={subTitleVariants}
-            >{subtitle}</h3>
+            >{subtitle}</motion.h3>
         </>
     )
 }
