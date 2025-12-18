@@ -1,4 +1,4 @@
-import { FaPhone, FaEnvelope, FaLocationDot } from 'react-icons/fa6';
+import { FaPhone, FaEnvelope } from 'react-icons/fa6';
 
 export const contactData = [
     {
@@ -14,13 +14,6 @@ export const contactData = [
         title: 'Email Address',
         value: "elder.goma@gmail.com",
         link: 'mailto:elder.goma@gmail.com',
-    },
-    {
-        id: 3,
-        icon: FaLocationDot,
-        title: 'Adress',
-        value: "Sweden, Gotebotg 415 17",
-        link: '#'
     }
 ]
 

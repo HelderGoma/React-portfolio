@@ -1,5 +1,5 @@
 import mainImg from "./main-img.webp";
-import aboutImg from "./about-img.webp";
+import aboutImg from "./about-img.JPG";
 import portfolio1 from "./portfolio-1.webp";
 import portfolio2 from "./portfolio-2.webp";
 import portfolio3 from "./portfolio-3.webp";

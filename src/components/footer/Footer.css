@@ -48,7 +48,7 @@
 .info-group ul,
 .follow-group ul {
     display: flex;
-    gap: 30px;
+    gap: 15px;
 
 }
 

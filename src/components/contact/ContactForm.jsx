@@ -22,7 +22,7 @@ const ContactForm = () => {
                 variants={slideInVariants("top", 0.7, 60, true)}
             >
                 <input placeholder="Email" type="email" />
-                <input placeholder="Subject" type="text" />
+                {/* <input placeholder="Subject" type="text" /> */}
             </motion.div>
             <motion.div className="third-row"
                 custom={3}

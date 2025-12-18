@@ -1,5 +1,5 @@
 import "./home.css"
-import { FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { mainImg } from "../../assets/images";
 import { motion } from "motion/react";
@@ -7,9 +7,11 @@ import { iconVariants, slideInVariants } from "../../utils/animation";
 
 
 const icons = [
-  { id: 1, href: "", icon: <FaFacebookF /> },
-  { id: 2, href: "", icon: <FaInstagram /> },
-  { id: 3, href: "", icon: <FaGithub /> }
+  { id: 1, href: "https://www.facebook.com/helder.goma", icon: <FaFacebookF /> },
+  { id: 2, href: "https://www.instagram.com/h.g.o.m.a/", icon: <FaInstagram /> },
+  { id: 3, href: "https://github.com/HelderGoma", icon: <FaGithub /> },
+  { id: 4, href: "https://www.linkedin.com/feed/", icon: <FaLinkedin /> },
+  { id: 5, href: "https://t.me/HelderGoma", icon: <FaTelegram /> }
 ]
 
 
@@ -28,6 +30,7 @@ const Home = () => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.5 }}
               className="media-icon"
+              target="_blank"
 
             >
               {item.icon}
@@ -40,7 +43,7 @@ const Home = () => {
             whileInView="visible"
             custom={0}
             viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("left", 0.5, 50, true)}>Hi, I am Ilay</motion.h1>
+            variants={slideInVariants("left", 0.5, 50, true)}>Hi, I am Helder</motion.h1>
           <motion.h3
             initial="hidden"
             whileInView="visible"
@@ -56,7 +59,7 @@ const Home = () => {
             I create stunning websites for your business, Highly experienced in web design and development
           </motion.p>
           <motion.a
-            href=""
+            href="#contact"
             className="home-info-link inner-info-link"
             initial="hidden"
             whileInView="visible"

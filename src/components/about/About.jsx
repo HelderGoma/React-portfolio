@@ -31,7 +31,7 @@ const About = () => {
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}>I'm Ilay</motion.h3>
+                variants={slideInVariants("right", 0.9, 100, true)}>I'm Helder</motion.h3>
               <motion.h4
                 initial="hidden"
                 whileInView="visible"

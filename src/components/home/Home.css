@@ -1,4 +1,3 @@
-
 .home {
     padding: 80px 0;
     min-height: 100vh;
@@ -47,26 +46,17 @@
 }
 
 .home-info-link {
-    width: 188px;
+    width: 200px;
     gap: 4px;
 }
-.home-info-link svg {
-    border-radius: 50%;
 
-    font-size: 17px;
+
+.inner-info-link svg {
+    width: 25px;
+    height: 15px;
+    padding-left: 8px;
+    padding-top: 4px;
 }
-
-/* .inner-info-link {
-    background: var(--second-color);
-    color: #fff;
-    font-size: var(--normal-font-size);
-    font-weight: 500;
-    display: inline-block;
-    margin-top: 25px;
-    padding: 20px 30px;
-    letter-spacing: 1px;
-    border-radius: 10px;
-} */
 
 .inner-info-link:hover {
     background: var(--hover-color);
@@ -75,6 +65,3 @@
 .home-img img {
     width: 90%;
 }
-
-
-
