@@ -11,12 +11,11 @@ const Footer = () => {
         <div className="about-group">
           <h2>Helder</h2>
           <p>Frontend Developer</p>
-          <a href="#about">About me</a>
         </div>
         <div className="hr"></div>
-        <FooterLinkGroup title="More" links={infolinks} isSocial={false}/>
+        <FooterLinkGroup title="More" links={infolinks} isSocial={false} />
         <div className="hr"></div>
-        <FooterLinkGroup title="Follow" links={followLinks} isSocial={true}/>
+        <FooterLinkGroup title="Follow" links={followLinks} isSocial={true} />
       </div>
       <p className="footer-copyright" >© <span className="year">{year}</span> by Coding Snow. All rights reserved.</p>
     </footer>

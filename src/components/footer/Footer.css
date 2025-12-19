@@ -21,7 +21,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.info-group li{
+.info-group li {
     cursor: pointer;
 }
 
@@ -43,6 +43,9 @@
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
+    background: linear-gradient(to top, transparent 0%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .info-group ul,
@@ -67,7 +70,8 @@
 }
 
 .footer-copyright {
-    font-size: var(--normal-font-size);
+    font-size: 13px;
+    color: darkgray;
     font-weight: 300;
     text-align: center;
     margin-top: 30px;
