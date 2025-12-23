@@ -64,7 +64,7 @@ const About = () => {
                 </motion.li>
               ))}
             </ul>
-            <motion.a href="" className="inner-info-link"
+            <motion.a href="/Helder_Goma_Resume.pdf" rel="noopener noreferrer" target="_blank" className="inner-info-link"
               initial="hidden"
               whileInView="visible"
               custom={3}
