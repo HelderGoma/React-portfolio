@@ -37,17 +37,14 @@ const About = () => {
                 whileInView="visible"
                 custom={1}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}>A Lead <span>Front-End Developer</span> based in <span>California</span></motion.h4>
+                variants={slideInVariants("right", 0.9, 100, true)}>A Junior <span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
               <motion.p
                 initial="hidden"
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
                 variants={slideInVariants("right", 0.9, 100, true)}>
-                I design and develop services for customers specializing creating stylish, modern
-                websites,
-                web services and online stores. My passion is to design digital user experiences through
-                meaningful interactions. Check out my Portfolio
+               I focused on building modern and user-friendly interfaces using React and JavaScript. I gain hands-on experience through freelance work and personal projects, paying close attention to clean code, responsiveness, and user experience. Highly motivated to grow within a team. Check out my Resume
               </motion.p>
             </div>
             <ul className="professional-list">

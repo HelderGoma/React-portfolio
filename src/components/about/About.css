@@ -44,7 +44,7 @@
 
 .professional-list {
     display: flex;
-    column-gap: 30px;
+    justify-content: space-around;
 }
 
 .professional-list .list-item {

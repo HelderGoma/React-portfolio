@@ -1,21 +1,21 @@
  export const education = [
     {
 
-        year: "2020-2021",
-        degree: "Ph.D in Horriblensess",
-        institution: "Harvard University, Cambridge, MA"
+        year: "2024-2025",
+        degree: "Frontend Development",
+        institution: "Tel-Ran.de GmbH, Berlin, DE"
     },
     {
 
-        year: "2018-2019",
-        degree: "Computer Science",
-        institution: "Imperialize Technical Institute"
+        year: "2024-2025",
+        degree: "JavaScript & React",
+        institution: "Tel-Ran.de GmbH, Berlin, DE"
     },
     {
 
-        year: "2016-2018",
-        degree: "Graphic Designer",
-        institution: "Web Graphy, Los Angeles, CA"
+        year: "2025-2025",
+        degree: " Web Development Fundamentals",
+        institution: "Tel-Ran.de GmbH, Berlin, DE"
     }
 
 ]

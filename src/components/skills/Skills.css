@@ -104,24 +104,28 @@
     border-radius: 2px;
 }
 
-.bar .html::before {
+.bar .HTML5::before {
     width: 95%;
 }
 
-.bar .css::before {
+.bar .CSS3::before {
+    width: 90%;
+}
+
+.bar .JavaScript::before {
     width: 85%;
 }
 
-.bar .javascript::before {
+.bar .React::before {
     width: 85%;
 }
 
-.bar .jquery::before {
-    width: 80%;
-}
-
-.bar .php::before {
+.bar .Git::before {
     width: 75%;
+}
+
+.bar .GitHub::before {
+    width: 85%;
 }
 
 .work-exp {

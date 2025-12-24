@@ -13,7 +13,7 @@ const ContactLeft = () => {
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("top", 0.6, 50, false)}>Let's discuss your project</motion.h2>
+                variants={slideInVariants("top", 0.6, 50, false)}> Open to new opportunities.</motion.h2>
             <ul className="contact-list">
                 {contactData.map((item, index) => (
                     <motion.li

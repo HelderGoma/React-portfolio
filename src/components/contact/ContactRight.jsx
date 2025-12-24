@@ -11,7 +11,7 @@ const ContactRight = () => {
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.5 }}
                 variants={slideInVariants("top", 0.9, 60, false)}
-            >I'm always open to discussing product <span>design work or partnerships.</span></motion.p>
+            >Let’s get in touch.  <span>I’ll be happy to hear from you.</span></motion.p>
             <ContactForm />
         </div>
     )

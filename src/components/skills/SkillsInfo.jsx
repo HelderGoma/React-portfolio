@@ -24,9 +24,7 @@ const SkillsInfo = () => {
           >
             <h3>Education & Skills</h3>
             <p>
-              For more than 5 years our experts have been accomplishing enough with modern Web
-              Development,
-              new generation web and app programming language.
+              For more than 2 years, I have been learning and practicing frontend development, working with modern web technologies and continuously improving my skills.
             </p>
           </motion.div>
           <div className="skills-info education-all">
