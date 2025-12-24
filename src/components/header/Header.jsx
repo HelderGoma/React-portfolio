@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Nav from "../nav/Nav"
-import "./header.css"
+import "./Header.css"
 import { TbHexagonLetterHFilled } from "react-icons/tb";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { RemoveScroll } from 'react-remove-scroll';

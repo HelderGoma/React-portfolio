@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { FaSun, FaMoon } from 'react-icons/fa'
-import './themeToggle.css'
+import './ThemeToggle.css'
 
 const ThemeToggle = () => {
     const [theme, setTheme] = useState('light')

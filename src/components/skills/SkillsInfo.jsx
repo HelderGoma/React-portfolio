@@ -1,8 +1,8 @@
 import { motion } from "motion/react"
-import SectionTitle from "../sectionTitle/sectionTitle"
+import SectionTitle from "../sectionTitle/SectionTitle"
 import Education from "./Education"
 import Skills from "./Skills"
-import "./skills.css"
+import "./Skills.css"
 import WorkExperience from "./WorkExperience"
 import { slideInVariants } from "../../utils/animation"
 

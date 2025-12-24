@@ -1,4 +1,4 @@
-import "./home.css"
+import "./Home.css"
 import { FaFacebookF, FaInstagram, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { mainImg } from "../../assets/images";

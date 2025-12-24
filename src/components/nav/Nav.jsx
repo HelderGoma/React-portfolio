@@ -1,5 +1,5 @@
 import { Link } from "react-scroll"
-import "./nav.css"
+import "./Nav.css"
 const Nav = ({ isMenuOpen, handleMenuClick }) => {
     const items = ["home", "about", "skills", "portfolio", "contact"]
     return (

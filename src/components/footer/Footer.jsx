@@ -1,5 +1,5 @@
 import { infolinks, followLinks } from "../../data/FooterData"
-import "./footer.css"
+import "./Footer.css"
 import FooterLinkGroup from "./FooterLinkGroup"
 
 

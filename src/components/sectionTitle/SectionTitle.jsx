@@ -1,7 +1,7 @@
 
 import { motion } from "motion/react"
 import { titleVariants, subTitleVariants } from "../../utils/animation"
-import "./sectionTitle.css"
+import {SectionTitle} from "../sectionTitle/SectionTitle"
 
 const SectionTitle = ({ title, subtitle }) => {
 

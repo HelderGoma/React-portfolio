@@ -1,8 +1,8 @@
 
 import { motion } from "motion/react";
 import { aboutImg } from "../../assets/images"
-import SectionTitle from "../sectionTitle/sectionTitle";
-import "./about.css"
+import SectionTitle from "../sectionTitle/SectionTitle"
+import "./About.css"
 import { FaDownload } from "react-icons/fa";
 import { slideInVariants } from "../../utils/animation";
 import { profList } from "../../data/profList";

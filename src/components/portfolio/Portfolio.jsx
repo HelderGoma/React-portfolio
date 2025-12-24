@@ -1,7 +1,7 @@
 import "./Portfolio.css"
 import { portfolioData } from "../../data/portfolioData"
 import PortfolioItem from "./PortfolioItem"
-import SectionTitle from "../sectionTitle/sectionTitle"
+import SectionTitle from "../sectionTitle/SectionTitle"
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio" >
