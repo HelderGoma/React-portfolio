@@ -4,10 +4,10 @@ import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6 
 export const portfolioData = [
     {
         id: 1,
-        title: "Project 1",
-        category: "Category 1",
+        title: "Task Manager",
+        category: "Web Application / Frontend Project",
         imgSrc: portfolio1,
-        description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        description: "A minimalist task management application for planning and tracking tasks."
     },
     {
         id: 2,
