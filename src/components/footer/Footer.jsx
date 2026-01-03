@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="hr"></div>
         <FooterLinkGroup title="Follow" links={followLinks} isSocial={true} />
       </div>
-      <p className="footer-copyright" >© <span className="year">{year}</span> by Coding Snow. All rights reserved.</p>
+      <p className="footer-copyright" >© <span className="year">{year}</span> by Helder. All rights reserved.</p>
     </footer>
   )
 }
