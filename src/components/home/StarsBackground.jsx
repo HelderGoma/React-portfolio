@@ -37,8 +37,8 @@ const StarsBackground = () => {
         this.trail = [{ x: this.x, y: this.y }];
         this.size = Math.random() * 0.8 + 0.8; // от 0.8 до 1.6 (чуть больше)
         this.speed = Math.random() * 0.5 + 0.8; // от 0.8 до 1.3
-        // Угол падения: 40 градусов (40 * Math.PI / 180 = 0.698 радиан)
-        this.angle = (40 * Math.PI) / 180; // 40 градусов
+        // Угол падения: 45 градусов (45 * Math.PI / 180 = 0.698 радиан)
+        this.angle = (45 * Math.PI) / 180; // 45 градусов
         this.opacity = Math.random() * 0.3 + 0.5; // от 0.5 до 0.8
       }
 
