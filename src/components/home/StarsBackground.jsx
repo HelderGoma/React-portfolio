@@ -12,7 +12,7 @@ const StarsBackground = () => {
 
     const ctx = canvas.getContext('2d');
     let stars = [];
-    const numStars = 50;
+    const numStars = 120;
 
     // Установка размера canvas
     const resizeCanvas = () => {
@@ -31,14 +31,14 @@ const StarsBackground = () => {
 
       reset() {
         // Начальная позиция от -300 до 400 (появляются в разных местах)
-        this.x = Math.random() * 700 - 300; // от -300 до 400
-        this.y = Math.random() * 700 - 300; // от -300 до 400
+        this.x = Math.random() * 1400 - 300; // от -300 до 400
+        this.y = Math.random() * 1400 - 300; // от -300 до 400
         // История позиций для длинного хвоста (увеличена длина)
         this.trail = [{ x: this.x, y: this.y }];
         this.size = Math.random() * 0.8 + 0.8; // от 0.8 до 1.6 (чуть больше)
         this.speed = Math.random() * 0.5 + 0.8; // от 0.8 до 1.3
         // Угол падения: 45 градусов (45 * Math.PI / 180 = 0.698 радиан)
-        this.angle = (45 * Math.PI) / 180; // 45 градусов
+        this.angle = (30 * Math.PI) / 180; // 45 градусов
         this.opacity = Math.random() * 0.3 + 0.5; // от 0.5 до 0.8
       }
 

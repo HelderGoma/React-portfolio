@@ -67,7 +67,7 @@ const About = () => {
               custom={3}
               viewport={{ once: false, amount: 0.5 }}
               variants={slideInVariants("right", 0.9, 40, true)}
-            >Download Resume
+            >Download CV
               <FaDownload />
             </motion.a>
           </div>
