@@ -4,6 +4,7 @@ import { FaCircleArrowRight } from "react-icons/fa6";
 import { mainImg } from "../../assets/images";
 import { motion } from "motion/react";
 import { iconVariants, slideInVariants } from "../../utils/animation";
+import StarsBackground from "./StarsBackground";
 
 
 const icons = [
@@ -18,6 +19,7 @@ const icons = [
 const Home = () => {
   return (
     <section className="home" id="home">
+      <StarsBackground />
       <div className="container home-wrapper">
         <div className="media-icons">
           {icons.map((item, index) => (
