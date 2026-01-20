@@ -19,11 +19,13 @@ export const portfolioData = [
 
     },
     {
+
         id: 3,
-        title: "Project 3",
-        category: "Category 3",
+        title: "Auth Form",
+        category: "Frontend / JavaScript",
         imgSrc: portfolio3,
-        description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        description: "Registration and login form with data validation and a clean, user-friendly interface."
+
     },
     {
         id: 4,
