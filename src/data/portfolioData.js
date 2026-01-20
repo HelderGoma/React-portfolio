@@ -10,11 +10,13 @@ export const portfolioData = [
         description: "A minimalist task management application for planning and tracking tasks."
     },
     {
+
         id: 2,
-        title: "Project 2",
-        category: "Category 2",
+        title: "Weather App",
+        category: "Frontend / JavaScript",
         imgSrc: portfolio2,
-        description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        description: "Weather application with day and night themes based on real-time API data."
+
     },
     {
         id: 3,

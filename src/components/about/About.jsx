@@ -44,7 +44,7 @@ const About = () => {
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
                 variants={slideInVariants("right", 0.9, 100, true)}>
-               I focused on building modern and user-friendly interfaces using React and JavaScript. I gain hands-on experience through freelance work and personal projects, paying close attention to clean code, responsiveness, and user experience. Highly motivated to grow within a team. Check out my Resume
+                I focused on building modern and user-friendly interfaces using React and JavaScript. I gain hands-on experience through freelance work and personal projects, paying close attention to clean code, responsiveness, and user experience. Highly motivated to grow within a team. Check out my Resume
               </motion.p>
             </div>
             <ul className="professional-list">
