@@ -29,10 +29,10 @@ export const portfolioData = [
     },
     {
         id: 4,
-        title: "Project 4",
-        category: "Category 4",
+        title: "E-Commerce Product Catalog (React + Redux Toolkit)",
+        category: "Web Application / TypeScript",
         imgSrc: portfolio4,
-        description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
+        description: "Product catalog built with React and TypeScript.The project includes product listing, product cards, and a fully functional shopping cart with quantity management and persistence via localStorage.State management is implemented using Redux Toolkit.The application follows a modular architecture and includes unit and component tests using Vitest and React Testing Library."
     },
     {
         id: 5,
