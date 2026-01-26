@@ -32,7 +32,7 @@ export const portfolioData = [
         title: "E-Commerce Product Catalog (React + Redux Toolkit)",
         category: "Web Application / TypeScript",
         imgSrc: portfolio4,
-        description: "Product catalog built with React and TypeScript.The project includes product listing, product cards, and a fully functional shopping cart with quantity management and persistence via localStorage.State management is implemented using Redux Toolkit.The application follows a modular architecture and includes unit and component tests using Vitest and React Testing Library."
+        description: "Product catalog built with React and TypeScript.The project includes product listing, product cards, and a fully functional shopping cart with quantity management and persistence via localStorage.State management is implemented using Redux Toolkit.The application follows a modular architecture and includes unit and component tests using Vitest and React Testing Library. https://reacttscatalog.netlify.app/"
     },
     {
         id: 5,
