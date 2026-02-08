@@ -39,7 +39,7 @@ export const portfolioData = [
         title: "Practice Hub: Frontend Lab",
         category: "Web UI Experiments",
         imgSrc: portfolio5,
-        description: "A collection of practice mini projects featuring responsive layouts, interactive UI elements, and basic web functionality to showcase frontend development skills."
+        description: "A collection of practice mini projects featuring responsive layouts, interactive UI elements, and basic web functionality to showcase frontend development skills. https://frontendlabhgoma.netlify.app/"
     }
 
 ]
