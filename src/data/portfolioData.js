@@ -1,5 +1,5 @@
 
-import { portfolio1, portfolio2, portfolio3, portfolio4} from "../assets/images"
+import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5} from "../assets/images"
 
 export const portfolioData = [
     {
@@ -33,16 +33,17 @@ export const portfolioData = [
         category: "Web Application / TypeScript",
         imgSrc: portfolio4,
         description: "Product catalog built with React and TypeScript.The project includes product listing, product cards, and a fully functional shopping cart with quantity management and persistence via localStorage.State management is implemented using Redux Toolkit.The application follows a modular architecture and includes unit and component tests using Vitest and React Testing Library. https://reacttscatalog.netlify.app/"
+    },
+    {
+        id: 5,
+        title: "Practice Hub: Frontend Lab",
+        category: "Web UI Experiments",
+        imgSrc: portfolio5,
+        description: "A collection of practice mini projects featuring responsive layouts, interactive UI elements, and basic web functionality to showcase frontend development skills."
     }
 
 ]
-//     {
-//         id: 5,
-//         title: "Project 5",
-//         category: "Category 5",
-//         imgSrc: portfolio5,
-//         description: "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
-//     },
+
 //     {
 //         id: 6,
 //         title: "Project 6",
