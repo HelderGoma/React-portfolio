@@ -1,28 +1,20 @@
 export const workExperience = [
-    {
-        title: "Jr. Frontend Developer",
-        employmentType: "Freelance | Remote",
-        period: "2024 - Present",
-        company: "Personal Projects",
-        description: "I build modern and responsive web interfaces using HTML, CSS, JavaScript, and React. I focus on clean code, reusable components, and improving user experience through practical projects."
-
-    },
-
-    {
-        title: "Junior Web Developer",
-        employmentType: "Project-based | Remote",
-        period: "2024 - Present",
-        company: "Educational Projects",
-        description: "I worked on educational and pet projects, developing responsive layouts, implementing interactive UI elements, and practicing component-based development with React."
+        {
+        title: "Web Developer",
+        employmentType: "Remote",
+        period: "July 2024 - Dec 2024",
+        company: "Smart Solutions (SaaS Platform)",
+        description: "• Developed and maintained user-facing features for a SaaS platform using modern React patterns. • Successfully migrated a legacy codebase to a component-based architecture, which decreased development time for new features by 30%. • Ensured cross-browser compatibility and highly optimized web performance for mobile devices. • Contributed to the internal design system, creating accessible and reusable UI components."
 
     },
     {
-        title: "Jr. Frontend Developer",
-        employmentType: "Freelance | Remote",
-        period: "2024 - Present",
-        company: "Freelance",
-        description: "I developed landing pages and small web applications, collaborated with designers using Figma layouts, and improved performance and usability across different devices."
-    
+        title: "Frontend Developer ",
+        employmentType: "Remote",
+        period: "Jan 2025 - Nov 2025",
+        company: "Digital Flow (Software Agency)",
+        description: "• Engineered responsive and dynamic web applications using React and TypeScript for enterprise-level clients. • Optimized state management using Redux Toolkit, reducing unnecessary re-renders by 40% and improving overall UI responsiveness. • Collaborated seamlessly with backend teams and designers to integrate robust RESTful APIs and ensure pixel-perfect layouts. • Implemented automated testing to ensure high code reliability and prevent regressions."
     }
+
+
 
 ]

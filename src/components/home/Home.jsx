@@ -18,8 +18,7 @@ const icons = [
 
 const Home = () => {
   return (
-    // <section className="home" id="home">
-    //   <StarsBackground />
+    <section className="home" id="home">
       <div className="container home-wrapper">
         <div className="media-icons">
           {icons.map((item, index) => (
@@ -82,7 +81,7 @@ const Home = () => {
           <img src={mainImg} alt="man" />
         </motion.div>
       </div>
-    // </section>
+    </section>
   )
 }
 

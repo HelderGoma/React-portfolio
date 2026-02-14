@@ -344,6 +344,11 @@ main {
     text-align: center;
   }
 
+  .email,
+  .phone {
+    justify-content: center;
+  }
+
   .get-in-touch .contact-card {
     width: 100%;
     padding: 25px;

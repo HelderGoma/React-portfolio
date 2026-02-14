@@ -5,6 +5,7 @@
     padding: 60px 0 20px;
     background: var(--second-color);
     color: #fff;
+    margin-top: 120px;
 }
 
 .footer-wrapper {
@@ -28,7 +29,7 @@
 .about-group p {
     font-size: var(--normal-font-size);
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .info-group,
@@ -76,4 +77,23 @@
     text-align: center;
     margin-top: 30px;
     padding: 0 15px;
+}
+
+.contact-title{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background: linear-gradient(to top, transparent 0%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.email,
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: var(--normal-font-size);
+    font-weight: 300;
+    margin-bottom: 10px;
 }

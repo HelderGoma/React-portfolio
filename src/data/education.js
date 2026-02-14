@@ -13,9 +13,9 @@
     },
     {
 
-        year: "2025-2025",
-        degree: " Web Development Fundamentals",
-        institution: "Tel-Ran.de GmbH, Berlin, DE"
+        year: "2017-2021",
+        degree: "Social and Administrative Management (HR)",
+        institution: "Belarusian State University (BSU), School of Business"
     }
 
 ]

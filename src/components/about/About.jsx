@@ -37,14 +37,18 @@ const About = () => {
                 whileInView="visible"
                 custom={1}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}>A Junior <span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
+                variants={slideInVariants("right", 0.9, 100, true)}><span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
               <motion.p
                 initial="hidden"
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
                 variants={slideInVariants("right", 0.9, 100, true)}>
-                I focused on building modern and user-friendly interfaces using React and JavaScript. I gain hands-on experience through freelance work and personal projects, paying close attention to clean code, responsiveness, and user experience. Highly motivated to grow within a team. Check out my Resume
+                Frontend Developer with a proven track record of building scalable and performant web applications using
+                React and TypeScript. Coming from a strong background in Social and Administrative Management (HR), I
+                bring a unique perspective to software development—possessing a deep understanding of business processes,
+                team dynamics, and user-centric design (UX). Passionate about writing clean, maintainable code and solving
+                real-world business challenges. Check out my Resume
               </motion.p>
             </div>
             <ul className="professional-list">
@@ -61,7 +65,7 @@ const About = () => {
                 </motion.li>
               ))}
             </ul>
-            <motion.a href={`${import.meta.env.BASE_URL}Helder_Goma_Resume.pdf`} rel="noopener noreferrer" target="_blank" className="inner-info-link"
+            <motion.a href={`${import.meta.env.BASE_URL}CV_HelderGoma_ru_eng.pdf`} rel="noopener noreferrer" target="_blank" className="inner-info-link"
               initial="hidden"
               whileInView="visible"
               custom={3}

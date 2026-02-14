@@ -27,7 +27,7 @@
 }
 
 .education,
-.skills-info > div {
+.skills-info>div {
     min-width: 320px;
     width: 32%;
 }
@@ -94,42 +94,19 @@
     background: #c5cadf;
 }
 
-.bar .line::before {
-    content: "";
-    position: absolute;
+.line {
+    width: 100%;
+    height: 6px;
+    background: #eee;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.progress {
     height: 100%;
-    top: 0;
-    left: 0;
     background: var(--second-color);
-    border-radius: 2px;
-}
-
-.bar .HTML5::before {
-    width: 95%;
-}
-
-.bar .CSS3::before {
-    width: 90%;
-}
-
-.bar .JavaScript::before {
-    width: 85%;
-}
-
-.bar .React::before {
-    width: 85%;
-}
-
-.bar .Git::before {
-    width: 75%;
-}
-
-.bar .GitHub::before {
-    width: 85%;
-}
-
-.bar .TypeScript::before {
-    width: 80%;
+    border-radius: 4px;
+    transition: width 0.4s ease;
 }
 
 .work-exp {

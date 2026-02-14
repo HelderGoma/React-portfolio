@@ -1,10 +1,4 @@
-import { FaFacebookF, FaInstagram, FaGithub, FaLinkedin, FaTelegram } from "react-icons/fa"
-export const infolinks = [
-    { id: 1, href: "skills", label: "Skills" },
-    { id: 2, href: "portfolio", label: "portfolio" },
-    { id: 3, href: "contact", label: "Contact" },
-    { id: 4, href: "about", label: "About" }
-]
+import { FaFacebookF, FaInstagram, FaGithub, FaLinkedin, FaTelegram, } from "react-icons/fa"
 
 export const followLinks = [
     { id: 1, href: "https://www.facebook.com/helder.goma", icon: FaFacebookF },

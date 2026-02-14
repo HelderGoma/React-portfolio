@@ -5,13 +5,18 @@ const Skills = () => {
     <div className="education">
       <h4 className="label">Skills</h4>
       <ul className="bars">
-        {skills.map((item, index) => (
-          <li className="bar" key={index}>
+        {skills.map((item) => (
+          <li className="bar" key={item.title}>
             <div className="info">
-              <span>{item.skill}</span>
-              <span>{item.level}</span>
+              <span>{item.title}:<br />{item.stack}</span>
+              <span>{item.level}%</span>
             </div>
-            <div className={"line " + item.skill}></div>
+            <div className="line">
+              <div
+                className="progress"
+                style={{ width: `${item.level}%` }}
+              />
+            </div>
           </li>
         ))}
       </ul>
