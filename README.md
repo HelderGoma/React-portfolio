@@ -1,16 +1,42 @@
-# React + Vite
+# React‑Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**React‑Portfolio** — это личный сайт‑портфолио, созданный с помощью **React**, чтобы показать мои навыки во фронтенд‑разработке, проекты и опыт.
 
-Currently, two official plugins are available:
+## 🌟 Обзор
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Этот сайт:
+- отображает мои ключевые проекты с живыми демо‑ссылками,
+- показывает стек технологий, которые я использую,
+- предоставляет краткую информацию обо мне и моих компетенциях.
 
-## React Compiler
+Цель проекта — продемонстрировать уровень владения **React, SPA‑архитектурой, маршрутизацией и современными практиками верстки**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Технологии
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Проект построен с использованием:
+
+- **React** — библиотека для построения интерфейсов  
+- **Vite** — инструмент сборки  
+- **React Router DOM** — маршрутизация  
+- **CSS (или Tailwind, если используется)** — стилизация  
+- **JavaScript (ES6+)** — логика компонентов  
+- **Git + GitHub Pages** — деплой и версия контроля  
+
+---
+
+## 🚀 Запуск проекта
+
+Чтобы запустить портфолио на своём компьютере:
+
+1. Склонируй репозиторий:
+   ```bash
+   git clone https://github.com/HelderGoma/React‑portfolio.git
+2. Перейди в папку проекта:
+   ```cd React‑portfolio
+3. Установи зависимости:
+   ```npm install
+4. Запусти в режиме разработки:
+   ```npm run dev
+5.	Открой браузер по адресу: http://localhost:5173
