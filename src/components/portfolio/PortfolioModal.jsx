@@ -6,7 +6,7 @@ const PortfolioModal = ({ item, isModalOpen, closeModal }) => {
       < div className="portfolio-model-body" >
         <FaXmark className="portfolio-close-btn" onClick={closeModal} />
         <h3>{item.title}</h3 >
-        <img src={item.imgSrc} alt={item.title} />
+        <img className="modal-img" src={item.imgSrc} alt={item.title} />
         <p>{item.description}</p>
       </div >
     </div >

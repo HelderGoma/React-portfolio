@@ -1,5 +1,5 @@
 
-import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5, portfolio6 } from "../assets/images"
+import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5} from "../assets/images"
 
 export const portfolioData = [
 
@@ -44,12 +44,12 @@ export const portfolioData = [
         category: "Web Application / TypeScript",
         imgSrc: portfolio4,
         description: "Product catalog built with React and TypeScript.The project includes product listing, product cards, and a fully functional shopping cart with quantity management and persistence via localStorage.State management is implemented using Redux Toolkit.The application follows a modular architecture and includes unit and component tests using Vitest and React Testing Library. https://heldergoma.github.io/React-catalog/#/"
-    },
-    {
-        id: 6,
-        title: "Portfolio",
-        category: "Frontend / React",
-        imgSrc: portfolio6,
-        description: "My portfolio website, showcasing my skills and projects."
     }
+    // {
+    //     id: 6,
+    //     title: "Portfolio",
+    //     category: "Frontend / React",
+    //     imgSrc: portfolio6,
+    //     description: "My portfolio website, showcasing my skills and projects."
+    // }
 ];
