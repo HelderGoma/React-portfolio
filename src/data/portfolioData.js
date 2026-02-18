@@ -1,9 +1,9 @@
 
-import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5} from "../assets/images"
+import { portfolio1, portfolio2, portfolio3, portfolio4, portfolio5 } from "../assets/images"
 
 export const portfolioData = [
 
-       {
+    {
         id: 1,
         title: "Practice Hub: Frontend Lab",
         category: "Web UI Experiments",
@@ -31,10 +31,10 @@ export const portfolioData = [
     },
     {
         id: 4,
-        title: "Task Manager",
-        category: "Web Application / Frontend Project",
+        title: "Lead-PRO / Gaming Hub",
+        category: "Web Application / Games Aggregator",
         imgSrc: portfolio1,
-        description: "A minimalist task management application for planning and tracking tasks."
+        description: "A high-performance gaming portal with dynamic filtering, infinite scroll, and a fully responsive interface for seamless game discovery."
     },
 
 
