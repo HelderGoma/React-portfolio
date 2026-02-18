@@ -20,8 +20,8 @@ const PortfolioItem = ({ item, index }) => {
             initial="hidden"
             whileInView="visible"
             custom={index}
-            viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("top", 0.6, 50, true)}
+            viewport={{ once: false, amount: 0.4 }}
+            variants={slideInVariants("top", 0.4, 50, true)}
         >
             <div className="img-card" onClick={openModal}>
                 <div className="overlay"></div>

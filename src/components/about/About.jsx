@@ -21,7 +21,7 @@ const About = () => {
             whileInView="visible"
             custom={0}
             viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("left", 0.9, 100, false)}
+            variants={slideInVariants("left", 0.7, 100, false)}
           >
             <img src={aboutImg} alt="about" /></motion.div>
           <div className="about-info">
@@ -31,19 +31,19 @@ const About = () => {
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}>I'm Helder</motion.h3>
+                variants={slideInVariants("right", 0.7, 100, true)}>I'm Helder</motion.h3>
               <motion.h4
                 initial="hidden"
                 whileInView="visible"
                 custom={1}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}><span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
+                variants={slideInVariants("right", 0.7, 100, true)}><span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
               <motion.p
                 initial="hidden"
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.9, 100, true)}>
+                variants={slideInVariants("right", 0.7, 100, true)}>
                 Frontend Developer with a proven track record of building scalable and performant web applications using
                 React and TypeScript. Coming from a strong background in Social and Administrative Management (HR), I
                 bring a unique perspective to software development—possessing a deep understanding of business processes,
@@ -58,7 +58,7 @@ const About = () => {
                   whileInView="visible"
                   custom={index}
                   viewport={{ once: false, amount: 0.5 }}
-                  variants={slideInVariants("right", 0.9, 40, true)}
+                  variants={slideInVariants("right", 0.7, 40, true)}
                 >
                   <span className="number">{item.number}</span>
                   <span className="text">{item.text}</span>
@@ -70,7 +70,7 @@ const About = () => {
               whileInView="visible"
               custom={3}
               viewport={{ once: false, amount: 0.5 }}
-              variants={slideInVariants("right", 0.9, 40, true)}
+              variants={slideInVariants("right", 0.7, 40, true)}
             >Download CV
               <FaDownload />
             </motion.a>

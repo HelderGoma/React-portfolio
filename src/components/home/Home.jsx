@@ -56,7 +56,7 @@ const Home = () => {
             whileInView="visible"
             custom={2}
             viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("left", 0.9, 65, true)}>
+            variants={slideInVariants("left", 0.6, 65, true)}>
             I create stunning websites for your business, Highly experienced in web design and development
           </motion.p>
           <motion.a
@@ -66,7 +66,7 @@ const Home = () => {
             whileInView="visible"
             custom={4}
             viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("left", 0.9, 100, true)}
+            variants={slideInVariants("left", 0.7, 100, true)}
           >
             Contact me
             <FaCircleArrowRight />
@@ -76,7 +76,7 @@ const Home = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false, amount: 0.5 }}
-          variants={slideInVariants("right", 0.9, 150, false)}
+          variants={slideInVariants("right", 0.8, 150, false)}
         >
           <img src={mainImg} alt="man" />
         </motion.div>

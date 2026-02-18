@@ -34,7 +34,7 @@ export const portfolioData = [
         title: "Lead-PRO / Gaming Hub",
         category: "Web Application / Games Aggregator",
         imgSrc: portfolio1,
-        description: "A high-performance gaming portal with dynamic filtering, infinite scroll, and a fully responsive interface for seamless game discovery."
+        description: "A high-performance gaming portal with dynamic filtering, infinite scroll, and a fully responsive interface for seamless game discovery. https://heldergoma.github.io/Lead-PRO/#/games/"
     },
 
 
