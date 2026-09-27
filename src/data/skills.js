@@ -1,7 +1,7 @@
 export const skills = [
-    { title: "Core", stack: "JavaScript (ES6+), TypeScript, HTML5, CSS3", level: 95 },
-    { title: "Frameworks", stack: "React, Redux Toolkit, Next.js, TanStack Query", level: 90 },
-    { title: "Tools", stack: "Git, Webpack, Vite, Docker, Jira", level: 85 },
-    { title: "Styling", stack: "Tailwind CSS, Styled Components, SASS", level: 90 },
-    { title: "API", stack: "Jest, Cypress, REST API", level: 85 },
+    { title: "Recruiting", stack: "job profiling, sourcing, interviewing, candidate assessment, offer management", level: 95 },
+    { title: "HR", stack: "onboarding, adaptation, motivation systems, turnover reduction, team management", level: 90 },
+    { title: "IT context", stack: "understanding of Frontend/Backend/QA/DevOps roles, reading job descriptions, communicating with developers", level: 85 },
+    { title: "Recruiting tools", stack: "LinkedIn Recruiter, hh.ru, Telegram, Google Docs, Notion, Trello", level: 90 },
+    { title: "Technical skills", stack: "React, JavaScript, Git — sufficient for junior/middle tech screening", level: 85 },
 ]

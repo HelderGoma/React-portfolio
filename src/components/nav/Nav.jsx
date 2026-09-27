@@ -1,7 +1,7 @@
 import { Link } from "react-scroll"
 import "./Nav.css"
 const Nav = ({ isMenuOpen, handleMenuClick }) => {
-    const items = ["home", "about", "skills", "portfolio", "contact"]
+    const items = ["home", "about", "skills", "contact"]
     return (
         <nav className={isMenuOpen ? "nav active" : "nav"}>
             <div className={isMenuOpen ? "nav-menu active" : "nav-menu"}>

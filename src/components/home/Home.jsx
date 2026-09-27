@@ -50,14 +50,14 @@ const Home = () => {
             whileInView="visible"
             custom={1}
             viewport={{ once: false, amount: 0.5 }}
-            variants={slideInVariants("left", 0.7, 50, true)} >Front-end Developer</motion.h3>
+            variants={slideInVariants("left", 0.7, 50, true)} >HR Manager | IT Recruiter</motion.h3>
           <motion.p
             initial="hidden"
             whileInView="visible"
             custom={2}
             viewport={{ once: false, amount: 0.5 }}
             variants={slideInVariants("left", 0.6, 65, true)}>
-            I create stunning websites for your business, Highly experienced in web design and development
+  
           </motion.p>
           <motion.a
             href="#contact"

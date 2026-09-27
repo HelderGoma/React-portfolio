@@ -1,4 +1,4 @@
-import { Header, Footer, Home, About, SkillsInfo, Portfolio, ScrollToTop, ThemeToggle } from "./components/index.js"
+import { Header, Footer, Home, About, SkillsInfo, ScrollToTop, ThemeToggle } from "./components/index.js"
 
 
 
@@ -13,7 +13,6 @@ function App() {
       <Home />
       <About />
       <SkillsInfo />
-      <Portfolio />
       <Footer />
       <ScrollToTop />
       <ThemeToggle />

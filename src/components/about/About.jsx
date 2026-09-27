@@ -37,18 +37,17 @@ const About = () => {
                 whileInView="visible"
                 custom={1}
                 viewport={{ once: false, amount: 0.5 }}
-                variants={slideInVariants("right", 0.7, 100, true)}><span>Front-End Developer</span> based in <span>Europe</span></motion.h4>
+                variants={slideInVariants("right", 0.7, 100, true)}><span>HR Manager | IT Recruiter</span> based in <span>Europe</span></motion.h4>
               <motion.p
                 initial="hidden"
                 whileInView="visible"
                 custom={0}
                 viewport={{ once: false, amount: 0.5 }}
                 variants={slideInVariants("right", 0.7, 100, true)}>
-                Frontend Developer with a proven track record of building scalable and performant web applications using
-                React and TypeScript. Coming from a strong background in Social and Administrative Management (HR), I
-                bring a unique perspective to software development—possessing a deep understanding of business processes,
-                team dynamics, and user-centric design (UX). Passionate about writing clean, maintainable code and solving
-                real-world business challenges. Check out my Resume
+                HR specialist with a degree in HR Management (Belarusian State University) and hands-on full-cycle hiring experience: built teams from scratch and closed 20+ positions across a retail business and hospitality operations, managing teams of 10+ people.
+                Technical background in frontend development (React, TypeScript, Tel-Ran.de program) — able to read technical job requirements and run first-stage tech screening for junior/middle candidates without pulling in a technical specialist.
+                Full-cycle recruiting experience: job profiling, sourcing, interviewing, onboarding, and reducing staff turnover — as a business owner and operations manager.
+                Check out my CV
               </motion.p>
             </div>
             <ul className="professional-list">
