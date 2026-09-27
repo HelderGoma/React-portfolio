@@ -57,7 +57,7 @@ const Home = () => {
             custom={2}
             viewport={{ once: false, amount: 0.5 }}
             variants={slideInVariants("left", 0.6, 65, true)}>
-  
+
           </motion.p>
           <motion.a
             href="#contact"
